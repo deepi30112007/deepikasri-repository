@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input required
+         type="text"  minlength="3" maxlength="15" name="fname" placeholder="enter your first name"> <br>
+        <input type="email" name="email" placeholder="enter your email address"> <br>
+        <input type="password" name="pwd" placeholder="enter your password" > <br>
+        DOB: <input type="date" name="dob" > <br>
+        SALARY: <input type="number" name="sal" min="10000" max="700000" >  <br>
+        check in time: <input type="time" name="intime"> <br>
+        <textarea name="add"  cols="30" rows="10" placeholder="address"></textarea> <br>
+        department: <select name="dept" id="">
+        <option value="CS WITH AI">computer science with ai</option>
+        <option value="CS">computer science</option>
+        <option value="MCA">master of computer application</option>
+        <option value="CA">computer application</option>
+        </select> <br>
+        gender :<input type="radio" name="gender" value="f" > female
+        <input type="radio" name="gender" value="m">  male <br>
+         choose electives: <br>
+        <input type="checkbox" name="electives" value="python"> python programming <br>
+        <input type="checkbox" name="electives" value="AI"> artificial intelligence <br>
+        <input type="checkbox" name="electives" value="java"> java programming<br>
+
+         <input type="submit" value="SAVE" > 
+        <input type="reset" value="CLEAR ALL" >
+    </form>
+</body>
+</html>
